@@ -6,7 +6,8 @@
 body{
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     color: #ffffff;
-    background-image: url(/img/background.jpg)
+    background-color: pink;
+    background-image: url(/img/background.jpg);
 }
 body::before{
     content: '';
@@ -56,6 +57,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    flex-direction: column;
 }
 main section{
     display: flex;
@@ -66,6 +68,7 @@ main section h1{
     font-size: 50px;
     margin-bottom: 10px;
     white-space: nowrap;
+    font-weight: 800;
 }
 main section button{
     width: 180px;

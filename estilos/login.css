@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-image: url(/img/background.jpg);
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.elementos{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.692);
+    padding: 40px 50px 150px;
+    width: 23%;
+}
+main h1 {
+    display: flex;
+    font-size: 32px;
+    justify-content: start;
+    margin: 0px 0 20px;
+}
+
+main input {
+    padding: 24px 16px 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+main button {
+    display: flex;
+    color: #ffffff;
+    background-color: #df0c15;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.container .or {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.container .button_enter {
+    margin-top: 10px;
+}
+
+.container .esqueceu {
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.container .checkbox {
+    display: flex;
+    align-items: center;
+    margin:20px 0;
+    
+}
+
+.container .checkbox input{
+    width: 18px;
+    height: 18px;
+}
+.footer{
+    margin-top: 15px;
+    font-weight: 300;
+    color: grey;
+}
+.footer span{
+    color:rgb(0, 119, 255);
+}
